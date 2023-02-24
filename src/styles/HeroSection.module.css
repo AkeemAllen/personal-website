@@ -1,0 +1,66 @@
+.heroSection {
+    display: grid;
+    width: var(--max-width);
+    grid-template-columns: 1fr 1fr;
+    column-gap: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 90px;
+}
+
+.textContainer {
+    width: 614px;
+    color: var(--prussian-blue);
+}
+
+.textContainer h6 {
+    font-family: var(--main-font);
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 150%;
+    margin-bottom: 16px;
+}
+
+.textContainer h1 {
+    font-size: 48px;
+    line-height: 150%;
+    font-weight: 900;
+    margin-bottom: 11px;
+}
+
+.textContainer h1 span {
+    background: -webkit-linear-gradient(0deg, #1C7ED6, #13c2ed);
+    /* -background-clip: text; */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.textContainer p {
+    line-height: 200%;
+    font-family: var(--secondary-font);
+    font-weight: 600;
+    width: 535px;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+.actionContainer {
+    display: grid;
+    grid-template-columns: max-content repeat(3, min-content);
+    column-gap: 2rem;
+    align-content: flex-end;
+}
+
+.contactButton {
+    background-color: var(--prussian-blue);
+    color: white;
+    font-family: var(--secondary-font);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+}
+
+.contactButton:hover {
+    cursor: pointer;
+}
