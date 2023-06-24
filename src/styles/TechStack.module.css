@@ -1,0 +1,20 @@
+.techStack {
+    display: grid;
+}
+
+.techStack h4 {
+    display: flex;
+    width: 162px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.techStack p {
+    width: 283px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 200%;
+    margin-top: 14px;
+}

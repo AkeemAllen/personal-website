@@ -1,0 +1,26 @@
+.expSection {
+    display: grid;
+    grid-template-columns: 136px auto;
+    background: var(--prussian-blue);
+    box-shadow: 0px 0px 10px var(--prussian-blue);
+    color: white;
+}
+
+.dotArt {
+    margin-left: 23px;
+    margin-top: 81px;
+}
+
+.myExperience {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.myExperience h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.techStackList {
+    margin-top: 70px;
+}
